@@ -1,0 +1,8 @@
+Camera find maze and orientation of maze, that output is something
+
+The maze gets rectified
+the maze can be sent to llm to solve it.
+
+the path is created and sent so the points of the path are created into robotic coordinates through homography
+
+a function that takes in as many points as you get takes those points and uses them as the x and y parameters for the robot movement
