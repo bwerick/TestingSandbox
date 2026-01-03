@@ -1,0 +1,7 @@
+names:
+- X
+- O
+nc: 2
+path: /Users/erickduarte/git/TestingSandbox/dataset_xo
+train: images/train
+val: images/val
