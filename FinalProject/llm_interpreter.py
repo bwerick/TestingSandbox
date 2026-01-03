@@ -4,7 +4,12 @@ import json
 from typing import Dict, Any
 import openai
 
-OPENAI_API_KEY = "***REDACTED_OPENAI_KEY***"
+
+import os
+
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise RuntimeError("Missing OPENAI_API_KEY environment variable")
 
 # You can change this to your preferred model
 MODEL_NAME = "gpt-4.1-mini"
