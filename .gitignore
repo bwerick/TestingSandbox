@@ -234,3 +234,7 @@ runs/
 *.png
 *.jpg
 *.jpeg
+
+Archived/
+wordlist/
+replace-secrets.txt
